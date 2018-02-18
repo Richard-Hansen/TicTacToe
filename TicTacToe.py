@@ -7,6 +7,7 @@ def printBoard(board):
 	print "0" + str(board[0])
 	print "1" + str(board[1])
 	print "2" + str(board[2])
+#Prints the board
 
 def checkTile(row, column, board):
 	if ((row < 0 or row > 2) or (column < 0 or column > 2) or board[row][column] != " "):
